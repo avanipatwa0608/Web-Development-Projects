@@ -1,0 +1,90 @@
+﻿body
+{
+}
+.reddot {
+    height: 5vw;
+    width: 5vw;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 10vw;
+}
+
+.bluedot {
+    height: 5vw;
+    width: 5vw;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 15vw;
+}
+
+.blackdot {
+    height: 5vw;
+    width: 5vw;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0vw;
+    left: 20vw;
+}
+.yellowdot {
+    height: 5vw;
+    width: 5vw;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0vw;
+    left: 25vw;
+}
+.orangedot {
+    height: 5vw;
+    width: 5vw;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0vw;
+    left: 30vw;
+}
+.greendot {
+    height: 5vw;
+    width: 5vw;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0vw;
+    left: 35vw;
+}
+.rectangle {
+    height:500px;
+    width:800px;
+    border:2px solid black;
+    position:absolute;
+    left:2vw;
+    bottom:2vw;
+    
+}
+
+.head{
+    text-align:center;
+    color:black;
+    font-size:38px;
+}
+
+.msg {
+    text-align: center;
+    color:red;
+    font-size:50px;
+}
+.btn_des {
+    height: 2vw;
+    width: 10vw;
+    color:white;
+    background-color:black;
+   left:10vw;
+   position:relative;
+    
+    
+}
