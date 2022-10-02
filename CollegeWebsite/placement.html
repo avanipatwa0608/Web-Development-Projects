@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Placement Statistics</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <script>
+        function viewGraph() {
+            $('.column').css('height', '0');
+            $('table tr').each(function (index) {
+                var ha = $(this).children('td').eq(1).text();
+                var hb = $(this).children('td').eq(0).text();
+                console.log(hb);
+                $('#col' + index).animate({ height: ha }, 2000).html("<div>" + ha + "</div>");
+                $("#yr" + index).text(hb);
+            });
+
+        }
+
+        $(document).ready(function () {
+            viewGraph();
+        });
+    </script>
+    <script language="javascript">
+
+        function resizePage() {
+            resizeTo(700, 600);
+            window.focus();
+        }
+
+    </script>
+</head>
+  <body class="bdy" >
+    <div class="container-fluid">
+
+
+
+
+    <div id="cont">
+
+
+          <table style="visibility:hidden; display:none ">
+<caption>Placement Record for the last 5 years</caption>
+<tbody>
+<tr><td>2017</td><td>70%</td><td style="background-color:#336699">&nbsp;</td></tr>
+<tr><td>2018</td><td>75%</td><td style="background-color:#003366">&nbsp;</td></tr>
+<tr><td>2019</td><td>85%</td><td style="background-color:#ff6600">&nbsp;</td></tr>
+<tr><td>2020</td><td>93%</td><td style="background-color:#ffcc00">&nbsp;</td></tr>
+<tr><td>2021</td><td>98%</td><td style="background-color:red">&nbsp;</td></tr>
+</tbody></table>
+
+<div class="left">
+
+
+
+<div id="graph1">
+<div class="riga" style="top:25%"><div>75%</div></div>
+<div class="riga" style="top:50%"><div>50%</div></div>
+<div class="riga" style="top:75%"><div>25%</div></div>
+
+<div id="col0" style="left:0; background-color:#336699;" class="column"></div>
+<div id="col1" style="left:20%; background-color:#003366;" class="column"></div>
+<div id="col2" style="left:40%; background-color:#ff6600;" class="column"></div>
+<div id="col3" style="left:60%; background-color:#ffcc00;" class="column"></div>
+<div id="col4" style="left:80%; background-color:red;" class="column"></div>
+</div>
+<div class="row">
+  <div class="col-sm-3 pl-4 aaa" id="yr0"></div>
+    <div class="col-sm-2 pl-2 aaa" id="yr1"></div>
+    <div class="col-sm-2 pl-2 aaa" id="yr2"></div>
+    <div class="col-sm-2 pl-3 aaa" id="yr3"></div>
+    <div class="col-sm-2 pl-4 aaa" id="yr4"></div>
+
+</div>
+<div><h3>Placement Statistics for the last 5 years</h3>
+
+</div>
+</div>
+</div>
+
+</div>
+
+  </body>
+</html>
