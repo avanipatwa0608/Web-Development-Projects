@@ -1,0 +1,86 @@
+﻿.bdy
+{ background-color:lightgrey;
+}
+
+.bld {
+    color:red;
+}
+
+.head {
+    color:brown;
+    font-family:'Book Antiqua';
+    text-align:center;
+    font-size:50px;
+}
+
+.subhead {
+    color:darkmagenta;
+    font-family: 'Book Antiqua';
+    text-align: right;
+    font-size: 30px;
+}
+
+.btn_class{
+    color:white;
+    background-color:grey;
+    border-radius:5px;
+}
+
+.img_size {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.img_size1 {
+    width: 100px;
+    height: 100px;
+}
+    .card a, .card a:hover{
+    text-decoration:none;
+    color:black;
+}
+
+.counter {
+   
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.errormsg {
+    color:red;
+    font-size:18px;
+}
+
+.anchor, .anchor:hover {
+    text-decoration:none;
+    color:black;
+}
+.btn1{
+    
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color: grey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    font-weight:400;
+    font-family:Arial;
+    color:white;
+    cursor:pointer;
+}
+
+.count {
+    
+    font-size: 24px;
+    font-family:Arial;
+    font-weight: 900;
+    color: red;
+}

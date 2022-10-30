@@ -1,0 +1,28 @@
+<div class="container-fluid border border-bottom border-dark">
+    <div class="row mt-3 mr-5 text-right">
+        <?php 
+        echo "in here";
+        if($_SESSION["session_id"]== 1) { ?>
+            <span class="col-12"><a class="anchor" href="login.php"> Welcome User </a> | My Cart<i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+        <?php } else { ?>
+            <span class="col-12"><a class="anchor" href="login.php"> Login </a> | My Cart<i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+        <?php } ?>
+    </div>
+        <div class="row text-center mt-4">
+            <h1 class="col-12 head text-uppercase">ABC Super Market</h1>
+        </div>
+        <div class="row">
+            <h6 class=" col-9   subhead">Guaranteed delivery in 20 mins</h6>
+        </div>
+
+    </div>
+    <div class="navbar navbar-light bg-secondary">
+        <div class="nav-action">
+
+            <a class="navbar-brand" href="home.php"> Home</a>
+        </div>
+        <div class="nav-action">
+            <input type="text" />
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-magnifying-glass"></i> Search </a>
+        </div>
+    </div>
