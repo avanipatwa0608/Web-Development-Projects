@@ -18,3 +18,7 @@ In the TO DO List application, a user can add, delete or mark a task as done for
 d. Bouncing Ball Game
 
 The Bouncing Ball game is developed using HTML, CSS and JQuery. The aim of the game is to catch the black ball from the number of balls bouncing inside a box.
+
+e. Grocery Shop mock
+
+I have tried to showcase my skills in session handling and AJAX via this mock site. This is a dynamic website with all data being displayed is picked from the database. The shopping cart process which includes adding to the cart, making modifications to the cart right upto checkout has been implemented.
