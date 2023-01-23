@@ -1,3 +1,4 @@
+Changes done forlearning purpose on 23 Jan 2023
 The project was developed with an aim to highlight my knowledge in HTML, CSS, JavaScript, Jquery, PHP and MySQL. 
 
 Bootstrap library was also used for formatting and beautification of the pages along with local CSS.
